@@ -1,0 +1,109 @@
+
+
+
+/* Slide setup
+article = 
+slide = 
+!important = overrides all other styles??
+*/
+
+/* ????? NOT SURE what this line sets ? */
+slides > slide {
+  overflow: scroll;
+}
+
+/* ????? NOT SURE what this line sets ? */
+article {
+  margin-top: 10px !important;
+}
+
+/* This line sets the slide padding (reduces from the default) */
+slides > slide {
+ padding: 5px 40px;
+}
+
+/* ????? This line sets the slide background colour */
+.slide {
+  background:white !important;
+  background-color:white !important;
+}
+
+/* ????? These lines set the slide.dark background colour & font colour */
+slides > slide.dark {
+  background-color:rgb(18, 65, 108) !important;
+}
+slides > slide.dark hgroup h1, h2 {
+  color: white;
+}
+
+/* General Styles 
+ul = bullet points
+li = lists
+td = 
+p = paragraph
+h = headings
+                  */
+
+h1,h2,h3,h4,h5,h6 {
+  color: rgb(18, 65, 108);
+}
+
+ul,li,td,p {
+  color: black !important;
+}
+
+/* Text Alignment 
+  need??          */
+
+.alignleft {
+  float: left;
+}
+.alignright {
+	float: right;
+}
+
+/* Keyword Styles */
+
+.kwd {
+  font-weight: bold;
+  color: red;
+}
+
+
+/* In-line Code Style */
+
+code, tt {
+   font-size: 0.9em;
+   margin: 0 2px;
+   padding: 0 5px;
+   white-space: nowrap;
+   border: 1px solid #eaeaea;
+   background-color: #f8f8f8;
+   border-radius: 3px; }
+
+
+/* Code Block Style */
+
+div.code_block {
+    width: 980px;
+    height: 500px;
+    overflow: auto;
+    /*
+    overflow-x: auto;
+    overflow-y: auto;
+    */
+}
+
+/* Link Styles */
+
+a { 
+  color: black;
+  text-decoration: underline;
+  border-bottom: 0;
+}
+a:visited { color: #551a8b; }
+a:focus { outline: thin dotted; }
+
+/* Improve readability when focused and hovered in all browsers: people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active { outline: 0; }
+

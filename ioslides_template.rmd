@@ -1,0 +1,58 @@
+---
+title: "ioslides template"
+author: "Samantha Clarke"
+date: "27 June 2017"
+output:
+    ioslides_presentation:
+        css: ioslides_style.css
+        self_contained: true
+        transition: 0.1
+        widescreen: yes
+        incremental: true
+        
+---
+## CSS Styles so far...General
+
+CSS for this ioslides presentation:
+
+  This is `inline code` in this ioslides presentation.
+
+  This is a <span class="kwd">Keyword</span>. 
+
+  This is a *Italic text* using * or _
+  
+  This is a **Bold text** using ** or __
+
+  This is a named link to [RStudio](http://rmarkdown.rstudio.com).
+
+  Or the link in full <http://rmarkdown.rstudio.com>.
+
+
+## CSS Styles so far...Bullet Points 
+
+CSS bullet point styles for this ioslides presentation:
+
+- [Github](www.github.com)
+- [StackOverflow](www.stackoverflow.com)
+- [Reddit](www.reddit.com)
+
+
+## CSS Styles so far...code blocks
+
+An example R code block (that is not code yet)
+
+```
+x + 2 = y 
+
+z = q
+
+```
+
+
+
+# Recap
+
+
+
+
+
