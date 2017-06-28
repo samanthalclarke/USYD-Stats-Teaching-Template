@@ -26,24 +26,24 @@ library(knitr)
 This presentation will cover: 
 
 >- General CSS Styles 
-- Lists
-- Links
-- Code blocks
-- Images
-- Videos
+>- Lists
+>- Links
+>- Code blocks
+>- Images
+>- Videos
 
 ## Outline | (non-incremental, with sub-points)
 
 This presentation will cover: 
 
 >- General CSS Styles 
-- Lists
+>- Lists
     - *Incremental lists*
     - *Non-incremental lists*
-- Links
-- Code blocks
-- Images
-- Videos
+>- Links
+>- Code blocks
+>- Images
+>- Videos
 
 
 
@@ -76,7 +76,7 @@ This slide shows the CSS unordered list styles for this ioslides presentation. W
 **Non-Incremental** unordered lists: A-B show bullet points that all show up at once (i.e. do not incrementally release). In the .rmd file, you will see that these have a ">" in front of the bullet point. 
 
 >- A
-- B
+>- B
     - Bi
 
 **Incremental** unordered lists: C-D show bullet points that incrementally release. In the .rmd file, you will see that these will not have a > in front of the bullet point. 
