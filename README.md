@@ -12,6 +12,8 @@ Please see the ioslides_template.html to get an idea of what the template output
 
 Access the [User Best Practice Guide](http://bit.ly/stats_templates_guide){:target="_blank"} for tips & guidelines for using the templates.
 
+<a href="http://bit.ly/stats_templates_guide" target="_blank">User Best Practice Guide</a>
+
 
 *These templates are still under development. Any comments, feedback, additions, or suggestions are welcome.* 
 
