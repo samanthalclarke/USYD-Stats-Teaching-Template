@@ -38,8 +38,8 @@ This presentation will cover:
 
 >- General CSS Styles 
 - Lists
-        - Incremental lists
-        - Non-incremental lists
+    - *Incremental lists*
+    - *Non-incremental lists*
 - Links
 - Code blocks
 - Images
