@@ -120,8 +120,9 @@
 <ul>
 <li>General CSS Styles</li>
 <li>Lists</li>
-<li><em>Incremental lists</em></li>
-<li><em>Non-incremental lists</em></li>
+<li><strong>Incremental lists</strong> <em>this should be a sub-point</em></li>
+<li><strong>Non-incremental lists</strong> <em>this should be a sub-point</em></li>
+<li><em>please note that sub-points are not working when you override the incremental: true with &gt;</em></li>
 <li>Links</li>
 <li>Code blocks</li>
 <li>Images</li>
@@ -143,7 +144,7 @@ Keyword</span>.</p>
 
 <p>This is a <strong>Bold text</strong> using ** or __</p>
 
-<p>This is <del>strikethrough</del> text</p>
+<p>This is <del>strikethrough</del> text using ~~</p>
 
 <p>This is a named link to <a href='http://rmarkdown.rstudio.com' title=''>RStudio</a>.</p>
 
@@ -158,7 +159,6 @@ Keyword</span>.</p>
 <ul>
 <li>A</li>
 <li>B</li>
-<li>Bi</li>
 </ul>
 
 <p><strong>Incremental</strong> unordered lists: C-D show bullet points that incrementally release. In the .rmd file, you will see that these will not have a &gt; in front of the bullet point.</p>
@@ -187,7 +187,9 @@ Keyword</span>.</p>
 
 </article></slide><slide class=''><hgroup><h2>CSS Styles - links</h2></hgroup><article  id="css-styles---links">
 
-<p>How to include a link in the .rmd file: <a href='web%20address' title=''>Link Name</a></p>
+<p>How to include a link in the .rmd file:</p>
+
+<pre><span class="kwd">[Link Name](web address)</span></pre>
 
 <ul>
 <li><a href='www.github.com' title=''>Github</a></li>
@@ -214,8 +216,6 @@ z = q
 </article></slide><slide class=''><hgroup><h2>Images</h2></hgroup><article  id="images">
 
 <p>The next two slides (the second &amp; third under the &quot;Images&quot; heading - see the .rmd file) include embedded images. You will need to make sure the image files are in the correct folder as refered to in the .rmd file path so the ioslides will knit correctly.</p>
-
-<p>Format: <a href='url' title=''>Alt Text</a></p>
 
 </article></slide><slide class=''><hgroup><h2></h2></hgroup><article  id="section">
 

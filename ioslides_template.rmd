@@ -63,7 +63,7 @@ CSS for this ioslides presentation:
   
   This is a **Bold text** using ** or __
   
-  This is ~~strikethrough~~ text
+  This is ~~strikethrough~~ text using ~~
 
   This is a named link to [RStudio](http://rmarkdown.rstudio.com).
 
@@ -78,7 +78,6 @@ This slide shows the CSS unordered list styles for this ioslides presentation. W
 
 >- A
 >- B
-    - Bi
 
 **Incremental** unordered lists: C-D show bullet points that incrementally release. In the .rmd file, you will see that these will not have a > in front of the bullet point. 
 
@@ -100,7 +99,9 @@ Ordered lists:
 
 ## CSS Styles - links
 
-How to include a link in the .rmd file: [Link Name](web address)
+How to include a link in the .rmd file: 
+
+<pre><span class="kwd">[Link Name](web address)</span></pre>
 
 > - [Github](www.github.com)
 > - [StackOverflow](www.stackoverflow.com)
@@ -127,7 +128,6 @@ z = q
 ## Images
 The next two slides (the second & third under the "Images" heading - see the .rmd file) include embedded images. You will need to make sure the image files are in the correct folder as refered to in the .rmd file path so the ioslides will knit correctly.
 
-Format: [Alt Text](url)
 
 ## 
 <div align="center">
