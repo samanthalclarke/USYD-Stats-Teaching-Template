@@ -10,9 +10,8 @@ This repo contains R-Markdown &amp; ioslides templates based on teaching materia
 Please see the ioslides_template.html to get an idea of what the template output looks like.
 
 
-Access the [User Best Practice Guide](http://bit.ly/stats_templates_guide){:target="_blank"} for tips & guidelines for using the templates.
+Access the [User Best Practice Guide](http://bit.ly/stats_templates_guide) for tips & guidelines for using the templates.
 
-<a href="http://bit.ly/stats_templates_guide" target="_blank">User Best Practice Guide</a>
 
 
 *These templates are still under development. Any comments, feedback, additions, or suggestions are welcome.* 
