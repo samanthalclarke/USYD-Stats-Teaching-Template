@@ -38,8 +38,9 @@ This presentation will cover:
 
 >- General CSS Styles 
 >- Lists
-    - *Incremental lists*
-    - *Non-incremental lists*
+    - **Incremental lists** *this should be a sub-point*
+    - **Non-incremental lists** *this should be a sub-point*
+    - *please note that sub-points are not working when you override the incremental: true with >* 
 >- Links
 >- Code blocks
 >- Images
