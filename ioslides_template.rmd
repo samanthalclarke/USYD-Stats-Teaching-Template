@@ -1,17 +1,56 @@
 ---
 title: "ioslides template"
-author: "Samantha Clarke"
-date: "27 June 2017"
+subtitle: "Optional Subtitle"
+author: "University of Sydney"
+date: '`r format(Sys.Date(), "%B %d %Y")`'
 output:
     ioslides_presentation:
-        css: ioslides_style.css
+        css:
+            - https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+            - ioslides_style.css
         self_contained: true
         transition: 0.1
         widescreen: yes
         incremental: true
         
 ---
-## CSS Styles so far...General
+
+```{r Lec1, echo=FALSE, warning=FALSE, message=FALSE, cache=FALSE}
+library(knitr)
+opts_chunk$set(tidy = TRUE, cache = FALSE) 
+library(knitr)
+```
+
+## Outline | (non-incremental, no sub-points) 
+
+This presentation will cover: 
+
+>- General CSS Styles 
+- Lists
+- Links
+- Code blocks
+- Images
+- Videos
+
+## Outline | (non-incremental, with sub-points)
+
+This presentation will cover: 
+
+>- General CSS Styles 
+- Lists
+        - Incremental lists
+        - Non-incremental lists
+- Links
+- Code blocks
+- Images
+- Videos
+
+
+
+# Section Divider Title | Subtitle (optional)
+
+
+## CSS Styles - General
 
 CSS for this ioslides presentation:
 
@@ -22,22 +61,58 @@ CSS for this ioslides presentation:
   This is a *Italic text* using * or _
   
   This is a **Bold text** using ** or __
+  
+  This is ~~strikethrough~~ text
 
   This is a named link to [RStudio](http://rmarkdown.rstudio.com).
 
   Or the link in full <http://rmarkdown.rstudio.com>.
 
 
-## CSS Styles so far...Bullet Points 
+## CSS Styles - Lists | Unordered lists 
 
-CSS bullet point styles for this ioslides presentation:
+This slide shows the CSS unordered list styles for this ioslides presentation. We have set incremental as "true" for the default for this presentation. 
 
-- [Github](www.github.com)
-- [StackOverflow](www.stackoverflow.com)
-- [Reddit](www.reddit.com)
+**Non-Incremental** unordered lists: A-B show bullet points that all show up at once (i.e. do not incrementally release). In the .rmd file, you will see that these have a ">" in front of the bullet point. 
+
+>- A
+- B
+    - Bi
+
+**Incremental** unordered lists: C-D show bullet points that incrementally release. In the .rmd file, you will see that these will not have a > in front of the bullet point. 
+
+- C
+- D
+
+## CSS Styles - Lists | Ordered lists 
+
+This slide shows the CSS ordered list styles for this ioslides presentation. 
+
+Ordered lists: 
+
+1. Item 1
+1. Item 2
+1. Item 3
+    1. Item 3a
+    1. Item 3b
 
 
-## CSS Styles so far...code blocks
+## CSS Styles - links
+
+How to include a link in the .rmd file: [Link Name](web address)
+
+> - [Github](www.github.com)
+> - [StackOverflow](www.stackoverflow.com)
+> - [Reddit](www.reddit.com)
+
+</br>
+Markdown help:
+
+> - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+> - [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
+
+
+## CSS Styles - code blocks
 
 An example R code block (that is not code yet)
 
@@ -48,11 +123,55 @@ z = q
 
 ```
 
+## Images
+The next two slides (the second & third under the "Images" heading - see the .rmd file) include embedded images. You will need to make sure the image files are in the correct folder as refered to in the .rmd file path so the ioslides will knit correctly.
+
+Format: [Alt Text](url)
+
+## 
+<div align="center">
+<img src="figures/kittens.jpg" width="50%" height="50%">
+</div>
+
+By Stephan Brunet Macphreak - http://macphreak.com, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4124375
+
+## 
+<div align="center">
+<img src="figures/puppy.jpeg" width="30%" height="30%">
+</div>
+
+By Carlos Estrada Dejo - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=25644223
+
+## Videos
+
+The next slide (the second under the "Videos" heading - see the .rmd file) includes an embedded You Tube video. You will need to be connected to the internet for this to knit correctly. 
+
+The slide also shows an example of "font awesome" icon. You will also need to be connected to the internet for this to knit correctly. 
+    
+##
+<div style="max-width:640"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/a6KGPBflhiM" width="640" height="360" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+</br>
+<i class="fa fa-video-camera"></i>
+[Best Of Cute Golden Retriever Puppies Compilation](https://youtu.be/a6KGPBflhiM)
 
 
-# Recap
+##
+<div style="border: 2px solid grey"> 
+### <i class="fa fa-commenting"></i> Statistical Thinking (*activity box*)
 
+With the person next to you:
 
+> - Pose some research questions about XYZ.
+> - For each one, sketch what type of graphical summary you would use
+</div>
 
+<br>
+<br>
+<i class="fa fa-link"></i>
+[Another link - Google](https://www.google.com)
+<br>
+<br>
+This slide shows an activity box, called "Statistical Thinking"
 
 

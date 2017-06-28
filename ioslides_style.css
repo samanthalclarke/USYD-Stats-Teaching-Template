@@ -1,6 +1,3 @@
-
-
-
 /* Slide setup
 article = 
 slide = 
@@ -20,6 +17,16 @@ article {
 /* This line sets the slide padding (reduces from the default) */
 slides > slide {
  padding: 5px 40px;
+}
+
+/* These two blocks set the title slide font colours
+They seem to work if either is there, don't seem to need both.
+*/
+.segue.nobackground h1,h2,h3,h4,h5,h6,p {
+  color:rgb(18, 65, 108);
+}
+.segue.nobackground.current hgroup h1,h2,p,a {
+  color:rgb(18, 65, 108);
 }
 
 /* ????? This line sets the slide background colour */
