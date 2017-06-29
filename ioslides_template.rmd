@@ -70,6 +70,18 @@ CSS for this ioslides presentation:
   Or the link in full <http://rmarkdown.rstudio.com>.
 
 
+## CSS Styles - Lists | General Style
+
+This slide shows the CSS unordered list styles for this ioslides presentation. We have set incremental as "true" for the default for this presentation. 
+
+
+Unordered lists will look like this. We have made them round than default. 
+
+- Item 1
+- Item 2
+- Item 3
+
+
 ## CSS Styles - Lists | Unordered lists 
 
 This slide shows the CSS unordered list styles for this ioslides presentation. We have set incremental as "true" for the default for this presentation. 

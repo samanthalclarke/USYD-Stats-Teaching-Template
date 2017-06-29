@@ -44,6 +44,7 @@ slides > slide.dark hgroup h1, h2 {
 }
 
 /* General Styles 
+
 ul = bullet points
 li = lists
 td = 
@@ -58,6 +59,13 @@ h1,h2,h3,h4,h5,h6 {
 ul,li,td,p {
   color: black !important;
 }
+
+/* Bullet point styles */
+
+ul { 
+list-style-type: round;
+}
+
 
 /* Text Alignment 
   need??          */
