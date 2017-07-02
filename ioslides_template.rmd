@@ -144,7 +144,7 @@ z = q
 
 ## CSS Styles - tables
 
-An example a table and the css table styling in this presentation.
+An example of a table and the css table styling.
 
 
 |Heading 0|Heading 1|Heading 2|Heading 3|Heading 4|
@@ -152,6 +152,7 @@ An example a table and the css table styling in this presentation.
 Row Title 1|Cell Text 1|Cell Text 2|Cell Text 3|Cell Text 4|
 Row Title 2|||More text 2|||
 Row Title 3||||More text 3||
+Row Title 4||||||
 
 
 ## Images
