@@ -12,7 +12,9 @@ output:
         transition: 0.1
         widescreen: yes
         incremental: true
-        
+
+# If you are knitting your ioslides but not connected to the internet, place a "#" in front of the css line above with the font-awesome.min.css line to comment it out. This will let you knit the document in draft form until you connect again and knit the final. Note that when you do this some elements will be missing from the knitted slides.
+
 ---
 
 ```{r Lec1, echo=FALSE, warning=FALSE, message=FALSE, cache=FALSE}
@@ -40,7 +42,7 @@ This presentation will cover:
 >- Lists
     - **Incremental lists** *this should be a sub-point*
     - **Non-incremental lists** *this should be a sub-point*
-    - *please note that sub-points are not working when you override the incremental: true with >* 
+    - *please note that sub-points are not working when you override the incremental: true with > in teh YAML information.* 
 >- Links
 >- Code blocks
 >- Images
@@ -72,10 +74,13 @@ CSS for this ioslides presentation:
 
 ## CSS Styles - Lists | General Style
 
-This slide shows the CSS unordered list styles for this ioslides presentation. We have set incremental as "true" for the default for this presentation. 
+This slide shows the CSS unordered list styles for this ioslides presentation. 
 
 
-Unordered lists will look like this. We have made them round than default. 
+We have set incremental as "true" for the default in the YAML, which means the list points will release one by one.  
+
+
+Unordered lists will look like this. We have made them round as the default. 
 
 - Item 1
 - Item 2
@@ -84,14 +89,14 @@ Unordered lists will look like this. We have made them round than default.
 
 ## CSS Styles - Lists | Unordered lists 
 
-This slide shows the CSS unordered list styles for this ioslides presentation. We have set incremental as "true" for the default for this presentation. 
+This slide shows the CSS unordered list styles for this ioslides presentation.
 
-**Non-Incremental** unordered lists: A-B show bullet points that all show up at once (i.e. do not incrementally release). In the .rmd file, you will see that these have a ">" in front of the bullet point. 
+**Non-Incremental** unordered lists: A-B show bullet points that all show up at once (i.e. do not incrementally release). In the .rmd file, you will see that each bullet point has a ">" symbol in front of it to override the *incremental: true* setting in the YAML information. 
 
 >- A
 >- B
 
-**Incremental** unordered lists: C-D show bullet points that incrementally release. In the .rmd file, you will see that these will not have a > in front of the bullet point. 
+**Incremental** unordered lists: C-D show bullet points that incrementally release. In the .rmd file, you will see that these will not have a ">"" in front of the bullet point. 
 
 - C
 - D
@@ -137,8 +142,22 @@ z = q
 
 ```
 
+## CSS Styles - tables
+
+An example a table and the css table styling in this presentation.
+
+
+|Heading 0|Heading 1|Heading 2|Heading 3|Heading 4|
+|---|---|---|---|---|
+Row Title 1|Cell Text 1|Cell Text 2|Cell Text 3|Cell Text 4|
+Row Title 2|||More text 2|||
+Row Title 3||||More text 3||
+
+
 ## Images
-The next two slides (the second & third under the "Images" heading - see the .rmd file) include embedded images. You will need to make sure the image files are in the correct folder as refered to in the .rmd file path so the ioslides will knit correctly.
+The next two slides (the second & third under the "Images" heading - see the .rmd file) include embedded images. 
+
+You will need to make sure the image files are in the correct folder as refered to in the .rmd file path so the ioslides will knit correctly.
 
 
 ## 
@@ -154,6 +173,22 @@ By Stephan Brunet Macphreak - http://macphreak.com, CC BY-SA 3.0, https://common
 </div>
 
 By Carlos Estrada Dejo - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=25644223
+
+
+
+## Slide that builds all elements (not just text) {.build}
+> - This is an slide that shows how you can build all elements on a slide...not just text
+
+> - To do this, you need to include {.build} after the slide header in the .rmd file
+
+> - And now a picture...
+
+<div align="center">
+<img src="figures/kittens.jpg" width="20%" height="20%">
+</div>
+
+> - By Stephan Brunet Macphreak - http://macphreak.com, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4124375
+
 
 ## Videos
 

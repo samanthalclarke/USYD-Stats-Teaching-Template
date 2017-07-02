@@ -5,7 +5,7 @@ This repo contains R-Markdown &amp; ioslides templates based on teaching materia
 
 **Current Version**: 0.1
 
-**Updated**: 29 June 2017
+**Updated**: 03 July 2017
 
 Please see the ioslides_template.html to get an idea of what the template output looks like.
 
