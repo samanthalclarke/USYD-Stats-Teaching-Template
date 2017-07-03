@@ -1,7 +1,7 @@
 /* Slide setup
-article = 
+article = independent, self-contained content
 slide = 
-!important = overrides all other styles??
+!important = overrides all other styles ??
 */
 
 /* ????? NOT SURE what this line sets ? */
@@ -47,7 +47,7 @@ slides > slide.dark hgroup h1, h2 {
 
 ul = bullet points
 li = lists
-td = 
+td = a standard cell in table
 p = paragraph
 h = headings
                   */
@@ -60,6 +60,13 @@ ul,li,td,p {
   color: black !important;
 }
 
+/* Table styles         NEW*/
+
+td, th {
+   font-size: 23px !important;
+    padding: 0.25em 0.5em !important; 
+  }
+
 /* Bullet point styles */
 
 ul { 
@@ -67,8 +74,7 @@ list-style-type: round;
 }
 
 
-/* Text Alignment 
-  need??          */
+/* Text Alignment  */
 
 .alignleft {
   float: left;
