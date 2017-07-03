@@ -6,7 +6,7 @@ date: '`r format(Sys.Date(), "%B %d %Y")`'
 output:
     ioslides_presentation:
         css:
-           # - https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+            - https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
             - ioslides_style.css
         self_contained: true
         transition: 0.1
@@ -224,24 +224,21 @@ With the person next to you:
 This slide shows an activity box, called "Statistical Thinking"
 
 ## Icons for use
-
+<!-- Comment -->
 There are many icons you can use in your ioslides presentation, thanks to [Font Awesome](http://fontawesome.io). Here are some we use:
+<br>
 
-<!-- 
-<i class="fa fa-commenting"></i>
-<i class="fa fa-video-camera"></i>
-<i class="fa fa-commenting"></i>
-<i class="fa fa-quote-left"></i>
-<i class="fa fa-twitter"></i>
-<i class="fa fa-quora"></i>
-<i class="fa fa-location-arrow"></i>
-<i class="fa fa-link">
-<i class="fa fa-commenting">
-<i class="fa fa-rss">
-<i class="fa fa-globe"></i>
-<i class="fa fa-ambulance">
+>- <i class="fa fa-commenting"></i>
+>- <i class="fa fa-video-camera"></i>
+>- <i class="fa fa-quote-left"></i>
+>- <i class="fa fa-twitter"></i>
+>- <i class="fa fa-location-arrow"></i>
+>- <i class="fa fa-rss"></i>
+>- <i class="fa fa-globe"></i>
+>- <i class="fa fa-ambulance"></i>
 
--->
+Find more examples here: [Font Awesome Cheatsheet](http://fontawesome.io/cheatsheet/)
+
 
 ## LaTeX
 
@@ -272,7 +269,5 @@ Given the ordered data $x_{(1)}, x_{(2)}, \ldots, x_{(n)}$, the median is
 \[ \tilde{x} = x_{(\frac{n+1}{2})}  \;\;\;\;\; (where \;  n \; is \; odd) \]
 
 \[ \tilde{x} = \frac{ x_{(\frac{n}{2})} + x_{(\frac{n}{2} + 1)} }{2} \;\;\;\; (where \;  n \; is \; even) \]
-
-
 
 
