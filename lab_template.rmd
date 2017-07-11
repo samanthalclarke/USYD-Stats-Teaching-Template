@@ -1,0 +1,225 @@
+---
+title: "UoS Code Lab X"
+subtitle: "Subtitle - lab title"
+author: "School of Mathematics and Statistics"
+date:  '`r format(Sys.Date(), "%B %d %Y")`'
+output:
+  html_document:
+    fig_caption: yes
+    include:
+      after_body: lab_style.js
+    number_sections: yes
+    self_contained: yes
+    theme: flatly       
+    # more on the themes: https://bootswatch.com/
+    #other themes include: flatly**, spacelab*, default, cerulean, journal, readable, united, cosmo, lumen, paper, sandstone, simplex, yeti  
+    #highlight: null  # syntax highlighting
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    code_folding: hide
+  pdf_document:
+    number_sections: yes
+    toc: yes
+    
+# More Info: http://rmarkdown.rstudio.com/html_document_format.html
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,tidy=TRUE)
+show_q = TRUE
+show_s = FALSE
+```
+
+<br>
+
+# Preparation for lab
+Complete Sections <> of the Guide to R.
+
+Insert more text here if needed.
+
+Such as a list:
+
+- To do 1
+
+- To do 2
+
+- To do 3
+
+<br>
+
+# Quiz {.tabset .tabset-fade .tabset-pills}
+
+##
+Which is correct?
+<br>
+(A) Answer 1 
+<br>
+(B) Answer 2
+<br>
+(C) Answer 3
+<br>
+(D) Answer 4
+<br>
+(E) Answer 5
+
+<br>
+
+##
+Fill out the following table.
+
+| Heading 1 | Heading 2 | Heading 3 |
+|-----------|:---------:|----------:|
+| Left      | Center    | Right     |
+|           |           |           |
+| Text      |           |           | 
+|           |           |           |
+| More text |           |           | 
+|           |           |           |
+
+<br>
+
+
+# Example section with 3 tabs {.tabset .tabset-fade .tabset-pills}
+
+## Overview
+Here is some text, followed by a video below. 
+Change the YouTube link in the .rmd file to get a different video.
+
+<div style="max-width:640"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/a6KGPBflhiM" width="560" height="315" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+<br>
+
+## Statistical Thinking
+Another section of text, followed by a link to an article or interesting web page. 
+[Interesting Web Page](https://www.ted.com/topics/visualizations)
+
+<br>
+
+## Wrangle the data (Ext)
+A generic data code block here as an example:
+
+R Studio has many data sets already loaded in. Read about the [mtcars data set](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html).
+
+- View the data.
+```{r,eval=F}
+mtcars
+```
+
+Clearly this is not recommended for large data sets!
+
+<br>
+
+- Instead, we can look at the first or last rows using the `head` or `tail` functions.
+```{r,eval=F}
+head(mtcars)
+tail(mtcars, n=3)
+```
+
+<br>
+
+- Calculate the `dim`ensions of the data set.
+```{r,eval=F}
+dim(mtcars)
+```
+This means that there are 32 rows (the types of cars) and 11 variables (properties of the cars).
+
+<br>
+
+- List the `names` of the variables.
+```{r,eval=F}
+names(mtcars)
+```
+
+<br>
+
+- See how R has classified the variables by viewing the `str`ucture of the data.
+```{r,eval=F}
+str(mtcars)
+```
+
+where 'num' is a quantitative (numerical) variable and 'Factor' is a qualitative (categorical) variable.
+
+<br>
+
+# Example section with no tabs
+
+In this section we have a Code Block and some LaTeX commands.
+
+Try the following commands in R.
+```{r,eval=F}
+1+ exp(3) + sin(0.5)
+x=c(1,2,3)
+x^2
+sum(x)
+```
+
+How could you work out $\sum_{i=1}^{5} x_{i}^3$?
+
+<br>
+
+# Example section with images
+
+Here is am image. It has not been adjusted in the rmd file, so represents the true size of the original image. 
+![](figures/kittens.jpg)
+<br>
+By Stephan Brunet Macphreak - http://macphreak.com, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4124375
+
+<br>
+Here is the same image with some adjustments in the rmd file to reduce the output by 50% and make it left aligned:
+<div align="left">
+<img src="figures/kittens.jpg" width="50%" height="50%">
+</div>
+<br>
+See the .rmd file for the differences in the markdown. 
+
+<br>
+
+# Example section with a simple table
+
+Here is a simple table.
+
+| Tables        | Are           | Cool  |
+|---------------|:-------------:|------:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+<br> 
+
+# Section - Summary (with tabs) {.tabset .tabset-fade .tabset-pills}
+
+Main block of text here.
+
+## Exploration
+Using the data in `XYZ_dataset.xlxs`, construct graphical summaries to analyse trends in ABC.
+
+<br>
+
+## Summary
+Summarise your findings in a paragraph.
+
+<br>
+
+# Project X
+This lab relates to Project X. 
+
+<br>
+
+
+# Additional Resources (do not include in lab files)
+This is a resource list for your information only. It should be deleted when building student lab files. 
+
+ [R Studio Webinars](https://www.rstudio.com/resources/webinars/) 
+ 
+ [Data Camp: Intro to R](https://www.datacamp.com/courses/free-introduction-to-r)
+ 
+ [How to use R Markdown](https://www.oreilly.com/learning/easy-reproducible-reports-with-r?utm_medium=social&utm_source=twitter.com&utm_campaign=lgen&utm_content=data+webcast+ki&cmp=tw-data-na-article-lgen_tw_webcast_ki)
+ 
+ [Chart Chooser](http://www.yaksis.com/posts/r-chart-chooser.html)
+ 
+  
+
+
+
