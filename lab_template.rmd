@@ -12,7 +12,7 @@ output:
         - lab_style.css
     number_sections: yes
     self_contained: yes
-    theme: spacelab       
+    theme: spacelab
     # more on the themes: https://bootswatch.com/
     #other themes include: flatly**, paper*, spacelab***, default, cerulean, journal, readable, united, cosmo, lumen, sandstone, simplex, yeti
     #highlight: null  # syntax highlighting
