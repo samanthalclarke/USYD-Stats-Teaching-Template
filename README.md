@@ -38,6 +38,7 @@ The following files relate to the labs HTML template:
 
 - lab_template.rmd
 - lab_template.html
+- lab_style.css
 - lab_style.js
 - figures\kittens.jpg
 

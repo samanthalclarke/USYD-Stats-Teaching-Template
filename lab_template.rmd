@@ -8,11 +8,13 @@ output:
     fig_caption: yes
     include:
       after_body: lab_style.js
+    css:
+        - lab_style.css
     number_sections: yes
     self_contained: yes
-    theme: flatly       
+    theme: spacelab       
     # more on the themes: https://bootswatch.com/
-    #other themes include: flatly**, spacelab*, default, cerulean, journal, readable, united, cosmo, lumen, paper, sandstone, simplex, yeti  
+    #other themes include: flatly**, paper*, spacelab***, default, cerulean, journal, readable, united, cosmo, lumen, sandstone, simplex, yeti
     #highlight: null  # syntax highlighting
     toc: true
     toc_depth: 3
@@ -72,11 +74,11 @@ Fill out the following table.
 | Heading 1 | Heading 2 | Heading 3 |
 |-----------|:---------:|----------:|
 | Left      | Center    | Right     |
-|           |           |           |
+| xxx       |           |           |
 | Text      |           |           | 
-|           |           |           |
+| xxx       |           |           |
 | More text |           |           | 
-|           |           |           |
+| xxx       |           |           |
 
 <br>
 
@@ -156,6 +158,12 @@ sum(x)
 ```
 
 How could you work out $\sum_{i=1}^{5} x_{i}^3$?
+
+<br>
+
+Here is some in-line code `normal size in-line code`
+<br>
+Here is some in-line code that we have reduced in size <span class="code">`small in-line code`</span>
 
 <br>
 
