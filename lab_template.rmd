@@ -161,9 +161,9 @@ How could you work out $\sum_{i=1}^{5} x_{i}^3$?
 
 <br>
 
-Here is some in-line code `normal size in-line code`
+Here is some in-line code `in-line code at 1em size`
 <br>
-Here is some in-line code that we have reduced in size <span class="code">`small in-line code`</span>
+Here is some in-line code that we have reduced in size <span class="code">`small in-line code at 0.8em size`</span>
 
 <br>
 
