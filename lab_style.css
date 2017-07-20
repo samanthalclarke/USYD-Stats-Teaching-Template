@@ -6,7 +6,6 @@ This will reduce the font size of the in-line code using the <span class="code">
    font-size: 0.8em;
 }
 
-
 /* Code Block Style 
 
 Adjust this value to reduce/increase the font size of ALL outputted code blocks.
@@ -18,14 +17,11 @@ Adjust this value to reduce/increase the font size of ALL outputted code blocks.
 } 
 
 
-
-
-
 /* NOT WORKING 
 Change the color when hovering over the navbar (top menu) items 
 http://theme.firmasite.com/support/topic/change-navbar-top-menu-font-hover-color-spacelab/
 
-Change the blue highlight/hover color replaced by #228B22 (green)     */
+Change the blue highlight/hover color replaced by #228B22 (green)     
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   color: #228B22;
@@ -36,3 +32,5 @@ Change the blue highlight/hover color replaced by #228B22 (green)     */
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
   background-color: #228B22;
 }
+
+*/
