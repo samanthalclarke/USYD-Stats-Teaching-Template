@@ -206,9 +206,8 @@ The slide also shows an example of "font awesome" icon. You will also need to be
 
 
 ##
-<div style="border: 2px solid grey"> 
-### <i class="fa fa-commenting"></i> Statistical Thinking (*activity box*)
-
+<div class="thinkingbox"> 
+###  <i class="fa fa-commenting"></i> Statistical Thinking (*activity box*)
 With the person next to you:
 
 > - Pose some research questions about XYZ.

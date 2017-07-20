@@ -128,3 +128,19 @@ a:focus { outline: thin dotted; }
 /* Improve readability when focused and hovered in all browsers: people.opera.com/patrickl/experiments/keyboard/test */
 a:hover, a:active { outline: 0; }
 
+
+/* Statistical Thinking Box Style 
+In .Rmd, need to include:
+<div class="thinkingbox"> 
+### <i class="fa fa-compass"></i> Getting Started
+Text
+</div>    */
+
+.thinkingbox 
+{
+    padding: 25px;
+    border: 6px solid grey;
+    background: white; 
+}
+
+
