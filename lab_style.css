@@ -14,4 +14,5 @@ Adjust this value to reduce/increase the font size of ALL outputted code blocks.
 
 .r{
   font-size: 0.9em;
-}
+ /* width: 500px; */
+} 

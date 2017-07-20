@@ -25,6 +25,7 @@ output:
     toc: yes
     
 # More Info: http://rmarkdown.rstudio.com/html_document_format.html
+# Fancy html for adding can be found at: https://bootswatch.com/
 
 ---
 
@@ -207,6 +208,7 @@ Using the data in `XYZ_dataset.xlxs`, construct graphical summaries to analyse t
 
 ## Summary
 Summarise your findings in a paragraph.
+
 
 <br>
 
