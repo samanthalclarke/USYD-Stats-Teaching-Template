@@ -205,6 +205,21 @@ The slide also shows an example of "font awesome" icon. You will also need to be
 [Best Of Cute Golden Retriever Puppies Compilation](https://youtu.be/a6KGPBflhiM)
 
 
+## Boxes
+
+This section show some common boxes for use, such as the "Get Started" box:
+
+<br>
+<br>
+
+<div class="startbox"> 
+###  <i class="fa fa-compass"></i> Get Started
+Text
+</div>
+
+<br>
+<br>
+
 ##
 <div class="thinkingbox"> 
 ###  <i class="fa fa-commenting"></i> Statistical Thinking (*activity box*)
@@ -221,6 +236,18 @@ With the person next to you:
 <br>
 <br>
 This slide shows an activity box, called "Statistical Thinking"
+
+##
+<div class="definebox"> 
+###  <i class="fa fa-star"></i> Definition
+Definition: xyz
+</div>
+
+<br>
+<br>
+This slide shows definition box. 
+
+
 
 ## Icons for use
 <!-- Comment -->
