@@ -16,3 +16,23 @@ Adjust this value to reduce/increase the font size of ALL outputted code blocks.
   font-size: 0.9em;
  /* width: 500px; */
 } 
+
+
+
+
+
+/* NOT WORKING 
+Change the color when hovering over the navbar (top menu) items 
+http://theme.firmasite.com/support/topic/change-navbar-top-menu-font-hover-color-spacelab/
+
+Change the blue highlight/hover color replaced by #228B22 (green)     */
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #228B22;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #228B22;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  background-color: #228B22;
+}

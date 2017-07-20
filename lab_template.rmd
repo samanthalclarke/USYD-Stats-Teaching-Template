@@ -14,7 +14,7 @@ output:
     self_contained: yes
     theme: spacelab
     # more on the themes: https://bootswatch.com/
-    #other themes include: flatly**, paper*, spacelab***, default, cerulean, journal, readable, united, cosmo, lumen, sandstone, simplex, yeti
+    #other themes include: spacelab***, flatly**, paper*, default, cerulean, journal, readable, united, cosmo, lumen, sandstone, simplex, yeti
     #highlight: null  # syntax highlighting
     toc: true
     toc_depth: 3
