@@ -39,6 +39,13 @@ show_s = FALSE
 
 # Preparation for lab
 Complete Sections <> of the Guide to R.
+<br>
+
+A neat way to display the lab aims using R:
+```{r comment=NA, echo = F}
+writeLines("Aims: \n aim 1 \n aim 2 \n aim 3")
+```
+
 
 Insert more text here if needed.
 
