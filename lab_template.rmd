@@ -175,6 +175,17 @@ Here is some in-line code that we have reduced in size <span class="code">`small
 
 <br>
 
+Here is a single code block that we have reduced in size using a div in the .rmd file (see the rmd file for the code to do this and adjust the font size in the css file):
+
+<div class="block">
+```{r,eval=F}
+head(mtcars)
+tail(mtcars, n=3)
+```
+</div>
+
+<br>
+
 # Example section with images
 
 Here is am image. It has not been adjusted in the rmd file, so represents the true size of the original image. 

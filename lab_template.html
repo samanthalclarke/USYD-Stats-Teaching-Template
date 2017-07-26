@@ -71,7 +71,7 @@ h6 {
 }
 </style>
 
-<link href="data:text/css;charset=utf-8,%0A%2Ecode%20%7B%0Afont%2Dsize%3A%200%2E8em%3B%0A%7D%0A%0A%2Er%7B%0Afont%2Dsize%3A%200%2E9em%3B%0A%0A%7D%20" rel="stylesheet" type="text/css" />
+<link href="data:text/css;charset=utf-8,%0A%2Ecode%20%7B%0Afont%2Dsize%3A%200%2E8em%3B%0A%7D%0A%0A%2Er%7B%0Afont%2Dsize%3A%200%2E9em%3B%0A%0A%7D%20%0A%2Eblock%20%7B%0Afont%2Dsize%3A%200%2E5em%0A%7D%0A" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -235,7 +235,7 @@ div.tocify {
 <h1 class="title toc-ignore">UoS Code Lab X</h1>
 <h3 class="subtitle"><em>Subtitle - lab title</em></h3>
 <h4 class="author"><em>School of Mathematics and Statistics</em></h4>
-<h4 class="date"><em>July 24 2017</em></h4>
+<h4 class="date"><em>July 26 2017</em></h4>
 
 </div>
 
@@ -376,6 +376,12 @@ sum(x)</code></pre>
 <p>How could you work out <span class="math inline">\(\sum_{i=1}^{5} x_{i}^3\)</span>?</p>
 <p><br></p>
 <p>Here is some in-line code <code>in-line code at 1em size</code> <br> Here is some in-line code that we have reduced in size <span class="code"><code>small in-line code at 0.8em size</code></span></p>
+<p><br></p>
+<p>Here is a single code block that we have reduced in size using a div in the .rmd file (see the rmd file for the code to do this and adjust the font size in the css file):</p>
+<div class="block">
+<pre class="r"><code>head(mtcars)
+tail(mtcars, n = 3)</code></pre>
+</div>
 <p><br></p>
 </div>
 <div id="example-section-with-images" class="section level1">

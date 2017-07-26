@@ -8,13 +8,19 @@ This will reduce the font size of the in-line code using the <span class="code">
 
 /* Code Block Style 
 
-Adjust this value to reduce/increase the font size of ALL outputted code blocks.
+Adjust this value to decrease/increase the font size of ALL outputted code blocks.
 1em is normal size.     */
 
 .r{
   font-size: 0.9em;
  /* width: 500px; */
 } 
+
+/* Adjust this value to decrease/increase the font size of individual outputted code blocks.
+Using  the <div class="block"> tag around the code block in the .rmd file will change the font size of the individual code block . */
+.block {
+	font-size: 0.5em
+	}
 
 
 /* NOT WORKING 
