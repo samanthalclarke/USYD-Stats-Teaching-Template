@@ -298,3 +298,9 @@ Given the ordered data $x_{(1)}, x_{(2)}, \ldots, x_{(n)}$, the median is
 \[ \tilde{x} = \frac{ x_{(\frac{n}{2})} + x_{(\frac{n}{2} + 1)} }{2} \;\;\;\; (where \;  n \; is \; even) \]
 
 
+
+## Copyright
+
+<div align="center">
+<img src="figures/copyright.jpg" width="50%" height="50%">
+</div>
