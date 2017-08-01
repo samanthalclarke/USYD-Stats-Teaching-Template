@@ -24,7 +24,9 @@ library(knitr)
 ```
 
 ## Outline | (non-incremental, no sub-points) 
-
+<span style="color:red”>The Main Learning Outcome</span>
+<br>
+<br>
 This presentation will cover: 
 
 >- General CSS Styles 
@@ -42,7 +44,7 @@ This presentation will cover:
 >- Lists
     - **Incremental lists** *this should be a sub-point*
     - **Non-incremental lists** *this should be a sub-point*
-    - *please note that sub-points are not working when you override the incremental: true with > in teh YAML information.* 
+    - *please note that sub-points are not working when you override the incremental: true with > in the YAML information.* 
 >- Links
 >- Code blocks
 >- Images
