@@ -22,7 +22,8 @@ slides > slide {
 
 /* Title slide */
 
-/* Set the title slide background as an image */
+/* Set the title slide background as an image 
+    Comment this out if you do not wish to have an image as background */
 .title-slide {
   background-image: url("figures/title_image.jpg");
   background-size: 100% 100%;
