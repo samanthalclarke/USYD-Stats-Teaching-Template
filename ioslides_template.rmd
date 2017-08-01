@@ -6,7 +6,7 @@ date: '`r format(Sys.Date(), "%B %d %Y")`'
 output:
     ioslides_presentation:
         css:
-            - https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+           # - https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
             - ioslides_style.css
         self_contained: true
         transition: 0.1
@@ -222,7 +222,8 @@ Text
 
 ##
 <div class="thinkingbox"> 
-###  <i class="fa fa-commenting"></i> Statistical Thinking (*activity box*)
+###  <i class="fa fa-pencil"></i> <span style="color:red”>Statistical Thinking (*activity box*)</span>
+
 With the person next to you:
 
 > - Pose some research questions about XYZ.

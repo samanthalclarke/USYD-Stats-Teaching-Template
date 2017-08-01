@@ -19,6 +19,15 @@ slides > slide {
  padding: 5px 40px;
 }
 
+
+/* Title slide */
+
+/* Set the title slide background as an image */
+.title-slide {
+  background-image: url("figures/title_image.jpg");
+  background-size: 100% 100%;
+}
+
 /* These two blocks set the title slide font colours
 They seem to work if either is there, don't seem to need both.
 */
@@ -29,17 +38,23 @@ They seem to work if either is there, don't seem to need both.
   color:rgb(18, 65, 108);
 }
 
-/* ????? This line sets the slide background colour */
+
+/* Gereral Slides */
+
+/* This line sets the slide background colour */
 .slide {
   background:white !important;
   background-color:white !important;
 }
 
-/* ????? These lines set the slide.dark background colour & font colour */
-slides > slide.dark {
+
+/* Dark Slides */
+
+/* ????? These lines set the dark slides background colour & font colour */
+.dark {
   background-color:rgb(18, 65, 108) !important;
 }
-slides > slide.dark hgroup h1, h2 {
+.dark hgroup h1, h2 {
   color: white;
 }
 
@@ -136,7 +151,9 @@ a:hover, a:active { outline: 0; }
 {
     padding: 20px;
     border: 5px solid grey;
-    background: white; 
+    background: white;
+    font-size: 1.2em;
+    color: green;
 }
 
 /*Statistical Thinking box */
