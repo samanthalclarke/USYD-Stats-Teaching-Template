@@ -247,7 +247,12 @@ This is a resource list for your information only. It should be deleted when bui
  
  [Chart Chooser](http://www.yaksis.com/posts/r-chart-chooser.html)
  
-  
+<br>
+<br>
+<br>
+<div align="center">
+<img src="figures/copyright.jpg" width="40%" height="40%">
+</div>
 
 
 
