@@ -6,7 +6,7 @@ date: '`r format(Sys.Date(), "%B %d %Y")`'
 output:
     ioslides_presentation:
         css:
-           # - https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+            - https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
             - ioslides_style.css
         self_contained: true
         transition: 0.1
@@ -24,7 +24,7 @@ library(knitr)
 ```
 
 ## Outline | (non-incremental, no sub-points) 
-<span style="color:red”>The Main Learning Outcome</span>
+<span class="line">Main Learning Outcomes</span>
 <br>
 <br>
 This presentation will cover: 

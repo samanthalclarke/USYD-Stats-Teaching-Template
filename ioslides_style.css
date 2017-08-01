@@ -38,7 +38,6 @@ They seem to work if either is there, don't seem to need both.
   color:rgb(18, 65, 108);
 }
 
-
 /* Gereral Slides */
 
 /* This line sets the slide background colour */
@@ -47,14 +46,13 @@ They seem to work if either is there, don't seem to need both.
   background-color:white !important;
 }
 
-
 /* Dark Slides */
 
 /* ????? These lines set the dark slides background colour & font colour */
-.dark {
+slides > slide.dark {
   background-color:rgb(18, 65, 108) !important;
 }
-.dark hgroup h1, h2 {
+slides > slide.dark hgroup h1, h2 {
   color: white;
 }
 
@@ -105,6 +103,19 @@ list-style-type: round;
   color: red;
 }
 
+/* Line Styles */
+
+.line{
+  font-size: 1.1em;
+  font-weight: bold;
+  color: red;
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
 
 /* In-line Code Style */
 
@@ -151,9 +162,9 @@ a:hover, a:active { outline: 0; }
 {
     padding: 20px;
     border: 5px solid grey;
-    background: white;
-    font-size: 1.2em;
-    color: green;
+    background-color: green;
+    font-size: 1.5em; 
+    font: white;
 }
 
 /*Statistical Thinking box */
