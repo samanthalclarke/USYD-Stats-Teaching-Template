@@ -31,8 +31,10 @@ The following files relate to the ioslides template:
 - ioslides_template.html
 - ioslides_style.css
 - font-awesome.min.css
+- figures\title_image.jpg
 - figures\kittens.jpg
 - figures\puppy.jpg
+- figures\copyright.jpg
 
 The following files relate to the labs HTML template:
 
@@ -41,6 +43,7 @@ The following files relate to the labs HTML template:
 - lab_style.css
 - lab_style.js
 - figures\kittens.jpg
+- figures\copyright.jpg
 
 The following files relate to the website HTML template:
 
@@ -49,4 +52,5 @@ The following files relate to the website HTML template:
 - website_styles.js
 - content\report_example.rmd
 - content\report_example.html
+- figures\copyright.jpg
 

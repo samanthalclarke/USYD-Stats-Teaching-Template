@@ -166,3 +166,12 @@ Week | Overview                       |Lecture slides | Tutorials | Pracs
 11   | Lorem ipsum dolor                      |               |           |
 12   | Lorem ipsum dolor                      |               |           |
 13   | Lorem ipsum dolor                        |               |           |
+
+
+
+<br>
+<br>
+<br>
+<div align="center">
+<img src="figures/copyright.jpg" width="40%" height="40%">
+</div>
