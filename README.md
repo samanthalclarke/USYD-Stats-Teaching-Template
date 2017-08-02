@@ -1,13 +1,13 @@
 # USYD-Stats-Teaching-Template
 This repo contains an R-Markdown &amp; ioslides template and R-Markdown HTML lab template based on teaching material developed for statistics units from the School of Mathematics and Statistics, University of Sydney. 
 
-**Created by**: Diana Warren, Garth Tarr, and Samantha Clarke
+**Created by**: Diana Warren, Garth Tarr, Samantha Clarke, and Ellis Patrick
 
 **Current Version**: 0.1
 
-**Updated**: 12 July 2017
+**Updated**: 02 August 2017
 
-Please see the ioslides_template.html and the lab_template.html to get an idea of what the template outputs looks like.
+Please see the ioslides_template.html, lab_template.html, website_template.html, and content/report_example.html to get an idea of what the template outputs looks like.
 
 
 Access the [User Best Practice Guide](http://bit.ly/stats_templates_guide) for tips & guidelines for using the templates.
@@ -41,4 +41,12 @@ The following files relate to the labs HTML template:
 - lab_style.css
 - lab_style.js
 - figures\kittens.jpg
+
+The following files relate to the website HTML template:
+
+- website_template.rmd
+- website_template.html
+- website_styles.js
+- content\report_example.rmd
+- content\report_example.html
 

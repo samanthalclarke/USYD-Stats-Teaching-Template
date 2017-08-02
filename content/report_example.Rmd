@@ -1,0 +1,97 @@
+---
+title: "Example"
+subtitle: "Data visualisation"
+#author: "School of Mathematics and Statistics"
+#date:  '`r format(Sys.Date(), "%B %d %Y")`'
+output:
+  html_document:
+   # fig_caption: yes
+    #include:
+    #  after_body: styles.js
+    #number_sections: yes
+    #self_contained: yes
+    #theme: spacelab
+    #css:
+     # - styles.css
+      #- https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+    #toc: true
+    #toc_depth: 3
+    #toc_float: true
+    #code_folding: hide
+  #pdf_document:
+   # number_sections: yes
+    #toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Summary
+
+I would normally start a report with some sort of summary. This will often include a brief background of the purpose of the report. 
+- I might even highlight one..
+- or two major findings.
+I generally find this makes the report much easier to read.
+
+
+## Background
+
+Depending on the situation it might be worth providing some background or context for the report. The contents of this will greatly depend on your intended audience. You might even like to use this to motivate what is coming next.
+
+## Results and discussion
+
+
+Some people might like to combine their 
+
+- introduction
+- background
+- results
+- discussion
+- conclusions
+
+into one big section. Or maybe into two big sections. This really depends on the type of the report and your style.
+
+### Sub headings
+
+I would generally advise trying to use some sub-headings.
+
+### A concept
+
+Headings really split things up and make things easier to read. Often a single idea could be included under one sub-heading.  
+
+I would normally not put more than one concept in a paragraph.
+
+### Plots and code
+
+It is pretty easy to include R code into a report.
+
+```{r}
+data(iris)
+dim(iris)
+head(iris)
+```
+
+You can control what this code will "do" or "look like"" in the report by control some of its arguments like _echo_, Check out https://yihui.name/knitr/options . The following plot was generated from a code chunk with echo=FALSE
+
+```{r echo=FALSE}
+library(ggplot2)
+p = ggplot(iris, aes(x=Sepal.Length, y=Sepal.Width, colour=Species)) + geom_point()
+p
+
+```
+
+This next one was generated with echo=TRUE
+
+```{r echo=TRUE}
+p = ggplot(iris, aes(x=Sepal.Length, y=Sepal.Width, colour=Species)) + geom_point() + theme_bw(16)
+p
+```
+
+
+
+
+
+## Conclusion
+
+Regardless of what you do, it is important to always finish your report with a section or at least paragraph dedicated to the conclusions made in your report. 
