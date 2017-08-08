@@ -5,7 +5,7 @@ This repo contains an R-Markdown &amp; ioslides template and R-Markdown HTML lab
 
 **Current Version**: 0.1
 
-**Updated**: 02 August 2017
+**Updated**: 08 August 2017
 
 Please see the ioslides_template.html, lab_template.html, website_template.html, and content/report_example.html to get an idea of what the template outputs looks like.
 
@@ -41,7 +41,9 @@ The following files relate to the labs HTML template:
 - lab_template.rmd
 - lab_template.html
 - lab_style.css
+- font-awesome.min.css
 - lab_style.js
+- figures\pattern12.jpg
 - figures\kittens.jpg
 - figures\copyright.jpg
 
