@@ -17,7 +17,7 @@ output:
     collapsed: true
     code_folding: none
     css:
-    #- https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+    - https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
  
  # If you are knitting your ioslides but not connected to the internet, place a "#" in front of the css line above with the font-awesome.min.css line to comment it out. This will let you knit the document in draft form until you connect again and knit the final. Note that when you do this some elements will be missing from the knitted slides.
 ---
@@ -151,7 +151,8 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 - Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
 - Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
 
-# Announcements {.tabset .tabset-fade .tabset-pills}
+# <i class="fa fa-commenting" aria-hidden="true"></i> Announcements {.tabset .tabset-fade .tabset-pills}
+
 
 ## Access to edstem
 

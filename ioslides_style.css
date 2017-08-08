@@ -4,21 +4,25 @@ slide =
 !important = overrides all other styles ??
 */
 
-/* ????? NOT SURE what this line sets ? */
+/* ? NOT SURE what this line sets ? */
 slides > slide {
   overflow: scroll;
 }
 
-/* ????? NOT SURE what this line sets ? */
+/* ? NOT SURE what this line sets ? */
 article {
   margin-top: 10px !important;
 }
 
 /* This line sets the slide padding (reduces from the default) */
 slides > slide {
- padding: 5px 40px;
+ padding: 50px; 60px;
 }
 
+/*   Removes slide gradient at bottom */
+slides > slide.backdrop {
+  background: white;
+}
 
 /* Title slide */
 
@@ -27,16 +31,6 @@ slides > slide {
 .title-slide {
   background-image: url("figures/title_image.jpg");
   background-size: 100% 100%;
-}
-
-/* These two blocks set the title slide font colours
-They seem to work if either is there, don't seem to need both.
-*/
-.segue.nobackground h1,h2,h3,h4,h5,h6,p {
-  color:rgb(18, 65, 108);
-}
-.segue.nobackground.current hgroup h1,h2,p,a {
-  color:rgb(18, 65, 108);
 }
 
 /* Gereral Slides */
@@ -49,7 +43,7 @@ They seem to work if either is there, don't seem to need both.
 
 /* Dark Slides */
 
-/* ????? These lines set the dark slides background colour & font colour */
+/* Sets the dark slides background colour & font colour */
 slides > slide.dark {
   background-color:rgb(18, 65, 108) !important;
 }
@@ -65,14 +59,6 @@ td = a standard cell in table
 p = paragraph
 h = headings
                   */
-
-h1,h2,h3,h4,h5,h6 {
-  color: rgb(18, 65, 108);
-}
-
-ul,li,td,p {
-  color: black !important;
-}
 
 /* Table styles         NEW*/
 
@@ -101,7 +87,7 @@ list-style-type: round;
 
 .kwd {
   font-weight: bold;
-  color: red;
+  color: #5E9DC8;
 }
 
 /* Line Styles */
@@ -163,7 +149,8 @@ a:hover, a:active { outline: 0; }
 {
     padding: 20px;
     border: 5px solid grey;
-    background-color: green;
+    background-color: green; 
+    /* opacity: 0.1; */
     font-size: 1.5em; 
     font: white;
 }
@@ -191,4 +178,208 @@ a:hover, a:active { outline: 0; }
     border: 5px solid grey;
     background: white; 
 }
+
+
+/* NEW */
+
+
+/* Nicer Table Style */
+table,
+.table-condensed,
+table.rmdtable {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+table,
+.table-condensed,
+table.rmdtable,
+table.rmdtable .header th,
+.table > thead > tr > th {
+  border-collapse: collapse;
+  border-style: solid;
+  border-spacing: 0;
+  border-width: medium 0 medium 0;
+  border-color: inherit
+}
+table.rmdtable th,
+table.rmdtable td,
+table th,
+table.rmdtable tr > td:first-child,
+table.rmdtable .even {
+  font-size: 100%;
+  padding: 0.4em 0.5em;
+  color: inherit;
+  background: #FFF;
+  font-weight: normal;
+}
+.table > tbody > tr > td {
+  border-width: 0;
+}
+
+/* reduces colour in code chunks */
+.prettyprint,
+pre {
+    max-width: 100%;
+    left: 0;
+    display: block;
+    padding: 9.5px;
+    font-size: 13px;
+    line-height: 1.42857;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333333;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
+
+
+
+/*** font ***/
+/* all */
+slides > slide.title-slide h1,
+slides > slide.title-slide h2,
+slides > slide.title-slide h3,
+slides > slide.title-slide h4,
+#myinfo {
+    text-transform: none;
+    font-family: arial, helvetica, sans-serif;
+}
+
+/* title page: main heading  */
+slides > slide.title-slide hgroup h1 {
+    font-size: 44pt;
+    font-weight: bold;
+    color: white;
+}
+
+/* title page: subtitle */
+slides > slide.title-slide h2 {
+    font-size: 28pt;
+    font-style: bold;
+    color: white
+}
+/* title page: date */
+slides > slide.title-slide h3 {
+    font-size: 18pt;
+    font-style: bold;
+    color: white;
+}
+/* title page: date */
+slides > slide.title-slide p {
+    font-size: 18pt;
+    font-style: bold;
+    color: white;
+}
+
+/* main title, subtitle and date to side 
+slides > slide.title-slide hgroup {
+    text-align: left;
+}
+*/
+
+/* organization info */
+#myinfo {
+    align: left;
+    font-size: 16pt;
+}
+
+
+/* Steel Blue headings as default throughout */
+h1,h2,h3,h4,h5,h6 {
+  color: rgb(18, 65, 108); 
+}
+
+/* Black text as default throughout */
+ul,li,td,p {
+  color: black;  
+  /*   This line was removed so that title page colour of date/author could be changed!  
+  !important        */
+}
+
+/* change all fonts: nicer */
+slides > slide h1,
+slides > slide h2,
+slides > slide h3,
+slides > slide h4,
+slides > slide h5,
+slides > slide h6,
+slides > slide p,
+slides > slide ul,
+slides > slide ol,
+slides > slide td,
+slides > slide li {
+    text-transform: none;
+    font-family: arial, helvetica, sans-serif;
+    /* color: #FFFFFF; */
+
+
+
+
+/* Extra Customising Options
+
+/*** This is a nicer logo: white background ***/
+/* .mylogo {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+.mylogo #mylogo-title {
+    all: inherit;
+    width: 148px;
+    height: 148px;
+    align: left;
+    margin-top: 180px;
+}
+*/
+
+
+/*
+.title-slide hgroup h1,h2,h3,h4,h5,h6,p {
+  font-weight: bold;
+  letter-spacing: 0;
+  color: white;
+}
+*/
+
+
+
+/* changes colour of inline code: nicer? 
+code {
+    color: #009DDC;
+}
+*/
+
+/* all slides - changes backdrop colour - too dark
+slide,
+.overview slides >slide,
+.with-notes.popup slide {
+    background: #2B2B2B radial-gradient(circle farthest-corner at center center, #555A5F 0%, #1C1E20 100%)repeat scroll 0% 0%;
+}
+*/
+
+/* overview and presenter mode 
+.overview,
+.with-notes.popup slide.backdrop {
+    background: #000000;
+}
+*/
+
+
+/*  Changes padding for Shiny Apps
+slides > slide {
+  width: 1000px;
+  height: 800px;
+  padding: 10px 20px;
+  left: 46%;
+  top: 45%;
+}
+
+iframe {
+  height: 900px;
+}
+*/
+
+
 

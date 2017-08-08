@@ -1,7 +1,7 @@
 ---
 title: "ioslides template"
 subtitle: "Optional Subtitle"
-author: "University of Sydney"
+author: "© University of Sydney"
 date: '`r format(Sys.Date(), "%B %d %Y")`'
 output:
     ioslides_presentation:
