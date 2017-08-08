@@ -16,7 +16,10 @@ output:
    # toc_float: true
     collapsed: true
     code_folding: none
+    css:
+    #- https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
  
+ # If you are knitting your ioslides but not connected to the internet, place a "#" in front of the css line above with the font-awesome.min.css line to comment it out. This will let you knit the document in draft form until you connect again and knit the final. Note that when you do this some elements will be missing from the knitted slides.
 ---
 
 <head>
@@ -33,7 +36,14 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-# Course information {.tabset .tabset-fade .tabset-pills}
+<div align="center">
+<img src="figures/pattern12.jpg" width="100%" height="100%">
+</div>
+
+<br>
+
+
+# <i class="fa fa-info-circle" aria-hidden="true"></i> Course information {.tabset .tabset-fade .tabset-pills}
 
 ## Aim
 
@@ -148,7 +158,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 Please make sure that you have access to https://edstem.org. Ed will host the course discussion board. I encourage you to use this discussion board as often as possible.
 
 
-# Materials
+# <i class="fa fa-folder-open" aria-hidden="true"></i> Course Materials
 
 
 Week | Overview                       |Lecture slides | Tutorials | Pracs
