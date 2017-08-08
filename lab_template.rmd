@@ -1,7 +1,7 @@
 ---
 title: "UoS Code Lab X"
 subtitle: "Subtitle - lab title"
-author: "School of Mathematics and Statistics"
+author: "© School of Mathematics and Statistics, The University of Sydney"
 date:  '`r format(Sys.Date(), "%B %d %Y")`'
 output:
   html_document:
