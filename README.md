@@ -3,7 +3,7 @@
 
 This repo contains an R-Markdown &amp; ioslides template and R-Markdown HTML lab template based on teaching material developed for statistics units from the School of Mathematics and Statistics, University of Sydney. 
 
-**Created by**: Diana Warren, Garth Tarr, Samantha Clarke, and Ellis Patrick
+**Created by**: Diana Warren, Samantha Clarke, Garth Tarr, and Ellis Patrick
 
 **Current Version**: 0.1
 
