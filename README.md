@@ -1,4 +1,6 @@
 # USYD-Stats-Teaching-Template
+© University of Sydney
+
 This repo contains an R-Markdown &amp; ioslides template and R-Markdown HTML lab template based on teaching material developed for statistics units from the School of Mathematics and Statistics, University of Sydney. 
 
 **Created by**: Diana Warren, Garth Tarr, Samantha Clarke, and Ellis Patrick
